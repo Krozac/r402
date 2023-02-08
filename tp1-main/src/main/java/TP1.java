@@ -66,6 +66,7 @@ public class TP1 {
     public static int countOddElements(int[] a) {
         int res = 0;
         for (int i = 0; i < a.length; i++) {
+        	System.out.println(a[i]+" "+a[i]%2);
             if (a[i] % 2 == 1) {
                 res++;
             }
@@ -87,7 +88,7 @@ public class TP1 {
 
     public static int f(int n) {
         int i = n;
-        int j = 0;
+        int j = 3;
         while (i > 1) {
             if (i % 3 == 0) {
                 i /= 3;
@@ -206,6 +207,9 @@ public class TP1 {
 
     public static void main(String[] args) {
         // le debugger peut être utilisé aussi bien sur un programme lancé de manière standard (main) que sur des tests
-        ecommerceUsecase();
+       
+    	System.out.println(f(20));
+
+    	//ecommerceUsecase();
     }
 }
