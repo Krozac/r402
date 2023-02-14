@@ -208,8 +208,8 @@ public class TP1 {
     public static void main(String[] args) {
         // le debugger peut être utilisé aussi bien sur un programme lancé de manière standard (main) que sur des tests
        
-    	System.out.println(f(20));
 
-    	//ecommerceUsecase();
+
+    	ecommerceUsecase();
     }
 }

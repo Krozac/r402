@@ -62,3 +62,33 @@ de ce dossier ne doivent pas être modifiées.
 ##### 3
 
 - 114
+
+
+### 3  Débogueur pour l’analyser d’une application complexe
+
+##### 1
+
+accountCreation = LocalDate
+-	day = 8
+-	month = 2
+-	year = 2023
+
+firstname = "Jean"
+
+id = 0
+
+lastname = "Dupont"
+
+preferredDeliveryAdress = null
+
+premiumAccount = false
+
+shoppingCart = Multiset<T> (vide)
+
+
+
+- Multiset<T>.add(T)
+----- HashMap<K,V>.get(Object) 
+--------HashMap<K,V>.getNode(Object)
+----- Integer.valueOf(int)
+
